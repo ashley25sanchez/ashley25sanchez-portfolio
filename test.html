@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" class="fa-events-icons-ready"><head><title> Ashley Sanchez </title>
+<script src="https://use.fontawesome.com/13b7bef1f9.js"></script><link href="https://use.fontawesome.com/13b7bef1f9.css" media="all" rel="stylesheet">
+
+
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+  <!-- SECTION 1: jumbotron -->
+  <section>
+    <div class="jumbotron">
+      <img class="img-circle" src="">
+      <div class="container animated zoomIn">
+        <hr>
+        <h1> <b> ASHLEY SANCHEZ <b></b></b></h1><b><b>
+        <hr>
+        <p> <br> Willow Glen HS '19</p>
+        <br>
+      </b></b></div><b><b>
+    </b></b></div><b><b>
+  </b></b></section><b><b>
+
+
+  <!-- ABOUT ME SECTION -->
+  <section>
+    <div class="aboutMe">
+      <div class="container">
+        <br><br>
+        <h1> <b> About Me </b> <a class="fa fa-user-circle-o" onclick="showhide('aboutMeDiv')"> </a> </h1>
+        <div id="aboutMeDiv" style="display: none;" overflow-y="overflow:hidden">
+          <p> <br> I am a junior at Willow Glen High school. I am currently attending Girls Who Code at IBM.
+          </p>
+        </div>
+        <br> <br>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- LINKS -->
+  <section>
+    <div class="links">
+      <br><br>
+      <h1> <b> Connect with Me! </b> <a class="fa fa-street-view" onclick="showhide('linkDiv')"> </a> </h1>
+      <div class="container">
+        <br>
+        <div class="linkIcons" id="linkDiv" style="display: none;">
+          <div class="col-md-4">
+            <p><a href="https://docs.google.com/document/d/1qMhiAyCsbj87g_X47z_vuYyY5edY4B1RbxD125TTGno/edit?usp=sharing" target="_blank"><i class="fa fa-files-o"> </i></a></p>
+            <p> Resume </p>
+          </div>
+          <div class="col-md-4">
+            <p><a href="https://github.com/ashley25sanchez" target="_blank"><i class="fa fa-github"></i></a></p>
+            <p> Github </p>
+          </div>
+          <div class="col-md-4">
+            <p><a href="https://www.linkedin.com/in/ashley-sanchez-474b6ab5/" target="_blank"><i class="fa fa-linkedin"></i></a></p>
+            <p> LinkedIn </p>
+          </div>
+          <br><br>
+        </div>
+      </div>
+      <br><br>
+    </div>
+  </section>
+
+
+  <!-- CONTACTS -->
+  <footer>
+    <br><br>
+    <div class="row">
+      <div class="container">
+        <div class="contact">
+          <h2><i class="fa fa-pencil"> </i>  <b> Contact </b> <i class="fa fa-envelope"> </i> </h2>
+          <br>
+          <hr>
+          <br>
+          <p> ashley25sanchez@gmail.com </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    function showhide(id) {
+      var div = document.getElementById(id);
+      if (div.style.display !== "none") {
+        $(div).slideToggle(500);
+      } else {
+        $(div).slideToggle(500);
+      }
+    }
+
+
+    function clicked(icon) {
+      if (icon == 'fa-minus-circle') {
+        $(this).find('i').toggleClass('fa-plus-circle');
+      } else {
+        $(this).find('i').toggleClass('fa-minus-circle');
+      }
+    }
+  </script>
+
+
+
+</b></b></body></html>
