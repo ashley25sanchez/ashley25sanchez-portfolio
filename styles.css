@@ -9,7 +9,7 @@
   background-color: purple;
   margin-bottom: 0px;
 }
-.nav ul,li,a {
+.nav ul,li,a,h1 {
   display: inline;
   padding-right: 10px;
   text-decoration:none;
