@@ -9,6 +9,7 @@
   padding: 9px 0px 50px 0px;
   background-color: purple;
   margin-bottom: 0px;
+  display: inline;
 }
 .nav ul,li,a,h1 {
   display: inline;
