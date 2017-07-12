@@ -1,6 +1,7 @@
 #menu {
   float: right;
   padding-right: 50px;
+  display: inline;
 }  
 .nav {
   position: relative;
