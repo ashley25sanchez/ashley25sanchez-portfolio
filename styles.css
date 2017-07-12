@@ -1,1 +1,17 @@
-
+#menu {
+  float: right;
+  padding-right: 50px;
+}  
+.nav {
+  position: relative;
+  top: -9px;
+  padding: 9px 0px 50px 0px;
+  background-color: white;
+  margin-bottom: 0px;
+}
+.nav ul,li,a {
+  display: inline;
+  padding-right: 10px;
+  text-decoration:none;
+  color: aqua;
+}
